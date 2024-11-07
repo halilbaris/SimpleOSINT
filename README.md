@@ -23,29 +23,26 @@ The **InfoSecLabs Investigation Tool** is a command-line tool designed to help c
    git clone https://github.com/halilbaris/SimpleOSINT.git
 Navigate to the project folder:
 
-bash
-Copy code
+
 cd infoseclabs-investigation-tool
 Install required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+
 Obtain API Keys:
 
 To use the tool, you need API keys for VirusTotal, IPinfo, and AbuseIPDB. Make sure to add them to a file named api_keys.txt in the format:
 
-Copy code
+
 VirusTotal=YOUR_VIRUSTOTAL_API_KEY
+
 IPinfo=YOUR_IPINFO_API_KEY
+
 AbuseIPDB=YOUR_ABUSEIPDB_API_KEY
+
 Run the Tool:
 
 After setting up your API keys, you can run the tool by executing:
 
-bash
-Copy code
 python main.py
 Choose Investigation Type:
 
