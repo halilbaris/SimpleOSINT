@@ -28,7 +28,7 @@ cd infoseclabs-investigation-tool
 Install required dependencies:
 
 
-Obtain API Keys:
+## Obtain API Keys:
 
 To use the tool, you need API keys for VirusTotal, IPinfo, and AbuseIPDB. Make sure to add them to a file named api_keys.txt in the format:
 
@@ -39,7 +39,7 @@ IPinfo=YOUR_IPINFO_API_KEY
 
 AbuseIPDB=YOUR_ABUSEIPDB_API_KEY
 
-Run the Tool:
+## Run the Tool:
 
 After setting up your API keys, you can run the tool by executing:
 
@@ -52,5 +52,5 @@ Enter the required data, and the tool will display the relevant information.
 
 
 
-Contributing
+## Contribution
 Feel free to fork the repository and submit issues or pull requests. Contributions are welcome!
